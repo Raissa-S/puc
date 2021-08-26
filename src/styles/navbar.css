@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
+}
+
+.topNav{
+    display: grid;   
+    width: 100%;
+    justify-items: end;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.topNav div a{
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.bottomNav {
+    display: grid;
+    /* grid-template-columns: repeat(5, 150px); */
+    width: 100%;
+    align-items: center;
+    justify-items: end;
+}
+
+.bottomNav div a{
+    padding: 0 20px;
+    text-decoration: none;
+}
