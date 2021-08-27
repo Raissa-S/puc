@@ -7,17 +7,34 @@
 .homepageContainer{
     display: grid;
     width: 100%;
-    grid-template-rows: 200px 300px 400px ;
+    grid-template-rows: 550px 600px 400px ;
     height: auto;
 
 }
 
 .heroContainer{
     width: 100%;
-    border: 1px solid red;
-    /* background-image: url(""); */
-    
+    background-image: url("../assets/campus.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+
+.courosel2{
+    width: 100%;
+    background-image: url("../assets/graduation.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.courosel3{
+    width: 100%;
+    background-image: url("../assets/research.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .heroTexts{
@@ -39,7 +56,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    transform: translateY(70px);
+    transform: translateY(400px);
+    height: 100px;
 }
 
 .heroLinks a{
@@ -47,3 +65,77 @@
     font-size: 1rem;
     text-decoration: none;
 }
+
+.middleContainer{
+    display: grid;
+    /* grid-template-columns: 30% 30% 30%; */
+    justify-items: center;
+    width: 100%;
+    align-items: center;
+}
+
+.middleCenter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 60%;
+    /* margin: auto;     */
+    width: 80%;
+    grid-column-gap: 30px;
+
+}
+
+.linkAndImage{
+    display: grid;
+    grid-template-rows: 1fr 20px;
+    grid-row-gap: 10px;
+    cursor: pointer;
+}
+
+.linkAndImage:hover{
+    transform: scale(1.09);
+    transition: 0.2s ease;
+}
+
+.linkAndImage a {
+    color: rgb(0, 73, 136);
+    text-decoration: none;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(238, 184, 4);
+    display: grid;
+    justify-items: center;
+}
+
+.footerCenter{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 0;
+}
+
+.middleLink1{
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/PUSAG-Awards-945A28451-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middleLink2{
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/nursing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middleLink3{
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/library.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

@@ -30,9 +30,71 @@
     width: 100%;
     align-items: center;
     justify-items: end;
+    grid-template-columns: 200px 1fr;
 }
 
 .bottomNav div a{
-    padding: 0 20px;
+    padding: 20px 20px;
     text-decoration: none;
+    color: rgb(0, 73, 136)
+}
+
+.faculties{
+    position: relative;
+}
+
+
+
+.faculties div {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+.faculties:hover  div {
+    display: grid;
+    transition: 0.3s ease all;
+    opacity: 1;
+}
+
+.facultiesAnnex div,.facultiesAnnex2 div,.facultiesAnnex3 div{
+    color: red;
+    visibility: hidden;
+    left:200px;
+    top: 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.facultiesAnnex:hover div {
+    visibility: visible;
+}
+
+.facultiesAnnex2:hover div{
+    visibility: visible;
+}
+
+.facultiesAnnex3:hover div{
+    visibility: visible;
+}
+
+.logo{
+
+    background-image: url('../assets/logo2.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: start;
+    width: 100%;
+    height: 100%;
 }
