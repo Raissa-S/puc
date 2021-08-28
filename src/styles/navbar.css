@@ -24,6 +24,15 @@
     text-decoration: none;
 }
 
+.middleNav{
+    display: grid;
+    align-items: end;
+    justify-items: end;
+    grid-template-columns: 90% 1fr;
+    width: 100%;
+    background-color: rgb(250, 249, 249);
+}
+
 .bottomNav {
     display: grid;
     /* grid-template-columns: repeat(5, 150px); */
@@ -67,7 +76,7 @@
     opacity: 1;
 }
 
-.facultiesAnnex div,.facultiesAnnex2 div,.facultiesAnnex3 div{
+.facultiesAnnex div,.facultiesAnnex2 div,.facultiesAnnex3 div, .facultiesAnnex4 div {
     color: red;
     visibility: hidden;
     left:200px;
@@ -87,6 +96,11 @@
 .facultiesAnnex3:hover div{
     visibility: visible;
 }
+
+.facultiesAnnex4:hover div{
+    visibility: visible;
+}
+
 
 .logo{
 

@@ -38,9 +38,9 @@ export class hero extends Component {
                     
                 </div>
                     <div className="heroLinks">
-                        <Link>link1</Link>
-                        <Link>Link2</Link>
-                        <Link>Link3</Link>
+                        <Link>E-Learning</Link>
+                        <Link>E-Portal</Link>
+                        <Link>Resources</Link>
                     </div>
                 </div>
                

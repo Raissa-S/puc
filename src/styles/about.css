@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutcontainer{
+    width: 100%;
+    padding: 30px;
+    height: auto + 200px;
+    display: grid;
+    grid-template-rows:  1fr;
+
+    margin: auto;
+    
+}
+
+.history{
+padding: 30px;
+border: 1.5px solid rgb(244, 244, 244);
+
+}
+.VisionMisionValues, .Administration{
+    padding: 30px;
+    border: 1.5px solid rgb(244, 244, 244);
+    
+    }
