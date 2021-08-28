@@ -54,7 +54,7 @@
     height: auto;
     border-radius: 5px;
     background-color: white;
-
+    z-index: 10;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 

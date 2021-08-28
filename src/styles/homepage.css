@@ -7,7 +7,7 @@
 .homepageContainer{
     display: grid;
     width: 100%;
-    grid-template-rows: 550px 600px 400px ;
+    grid-template-rows: 550px 600px  ;
     height: auto;
 
 }
@@ -101,19 +101,7 @@
     text-decoration: none;
 }
 
-.footer{
-    width: 100%;
-    background-color: rgb(238, 184, 4);
-    display: grid;
-    justify-items: center;
-}
 
-.footerCenter{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 0;
-}
 
 .middleLink1{
     width: 100%;

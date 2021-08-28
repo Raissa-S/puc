@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.coursesContainer{
+    width: 80%;
+    height: auto + 200px;
+    display: grid;
+    grid-template-rows:  1fr;
+
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+.imagesHeader{
+    display: grid;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 200px;
+    align-items: center;
+}
+
+.imagesHeader div{
+    width: 80%;
+    margin: auto;
+    border-left: 8px solid blue;
+    padding: 20px 10px;
+}
+
+.courseLinksContainerMargin{
+    transform: translateY(200px);
+
+    display: grid;
+    grid-template-rows: repeat(13,100px);
+    align-items: center;
+}
+
+.programme{
+    padding: 20px 0;
+}
+
+.programme:hover{
+    background-color: rgb(242, 242, 242);
+}
+
+.programme a{
+    text-decoration: none;
+    color: rgb(0, 96, 213);
+}

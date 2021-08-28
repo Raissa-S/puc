@@ -26,7 +26,7 @@ export class navbar extends Component {
 
                     </div>
                     <div>
-                        <Link>Admission</Link>
+                        <Link to="/admission">Admission</Link>
                         <Link className="faculties">
                             Faculties and Departments
                             <div>
@@ -41,7 +41,6 @@ export class navbar extends Component {
                                     <div>
                                         <a href="">Department of Information Technology</a>
                                         <a href="">Department of Built Environment</a>
-
                                     </div>
                                 </Link>
                                 <Link className="facultiesAnnex3" href="#">School of Theology, Mission and Leadership
@@ -50,15 +49,14 @@ export class navbar extends Component {
                                         <a href="">Department of Mission</a>
                                         <a href="">Department of Leadership</a>
                                         <a href="">Centre for Ministerial Formation</a>
-
                                       </div>
                                 </Link>
                                 <a href="#">Faculty of Health and Allied Sciences</a>
                             </div>
                         </Link>
-                        <Link>Courses</Link>
+                        <Link to="programmes">Undergraduate Programmes</Link>
                       
-                        <Link>Post-graduate School</Link>
+                        <Link to='postgraduate'>Post-graduate School</Link>
                     </div>
                     
                 </div>

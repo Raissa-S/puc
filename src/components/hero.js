@@ -19,7 +19,9 @@ export class hero extends Component {
            
            
            let heroCont = document.querySelector('#hero')
-           heroCont.className = this.state.courosel[this.state.counter]
+           
+           if(heroCont !== null)
+             heroCont.className = this.state.courosel[this.state.counter]
            this.setState({counter: this.state.counter + 1})
 
            if(this.state.counter > 2 ){
