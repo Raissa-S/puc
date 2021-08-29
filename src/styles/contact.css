@@ -14,3 +14,35 @@
     margin: auto;
     
 }
+
+td{
+    padding: 10px;
+    padding-right: 60px;
+}
+
+
+table{
+    width: 70%;
+    height: 15%;
+    font-size: 17px;
+}
+
+.staffcontacts tr{
+    padding: 70px;
+    
+}
+
+.helplines, .staff{
+    padding: 20px;
+}
+
+.mailtable tr{
+    padding: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+

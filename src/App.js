@@ -20,7 +20,6 @@ function App() {
         <Switch>
           <Route  exact path="/"> <Homepage></Homepage> </Route>
           
-          <Route  path="/contact">contact</Route>
           <Route  path="/admission"><Admission title='Admission'></Admission></Route>
           <Route  path="/courseRegistration"> <Login></Login> </Route>
           <Route  path="/programmes"> <Courses title='Undergraduate Programmes'></Courses> </Route>
