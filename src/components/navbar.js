@@ -8,17 +8,17 @@ export class navbar extends Component {
             <div className="navContainer">
                 <div className="topNav">
                     <div>
-                        <Link>Course Registration</Link>
+                        <Link to="/courseRegistration">Course Registration</Link>
 
-                        <Link>About</Link>
-                        <Link>Contact us</Link>
+                        <Link to ="/about">About</Link>
+                        <Link to ="/contact">Contact us</Link>
                     </div>
                         
 
                 </div>
 
                 <div className="middleNav">
-                    
+                    <Link to ="/">Home</Link>
                 </div>
 
                 <div className="bottomNav">
@@ -51,7 +51,13 @@ export class navbar extends Component {
                                         <a href="">Centre for Ministerial Formation</a>
                                       </div>
                                 </Link>
-                                <a href="#">Faculty of Health and Allied Sciences</a>
+                                <Link className="facultiesAnnex4" href="#"> Faculty of Health and Allied Sciences
+                                <div>
+                                        <a href="">Department of Nursing and Midwifery</a>
+                                        <a href="">Department of Physician Assistantship</a>
+                                      </div>
+                                </Link>
+
                             </div>
                         </Link>
                         <Link to="programmes">Undergraduate Programmes</Link>

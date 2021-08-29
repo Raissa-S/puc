@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.loginContainer{
+    width: 50%;
+    margin: auto;
+    padding: 100px 0; 
+    
+}

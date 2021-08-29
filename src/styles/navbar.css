@@ -9,6 +9,7 @@
     height: 150px;
     display: grid;
     grid-template-rows: 1fr 2fr 3fr;
+    border-bottom: rgb(61, 177, 255) 1px solid;
 }
 
 .topNav{
@@ -22,6 +23,15 @@
 .topNav div a{
     padding: 0 20px;
     text-decoration: none;
+}
+
+.middleNav{
+    display: grid;
+    align-items: end;
+    justify-items: end;
+    grid-template-columns: 90% 1fr;
+    width: 100%;
+    background-color: rgb(250, 249, 249);
 }
 
 .bottomNav {
@@ -67,7 +77,7 @@
     opacity: 1;
 }
 
-.facultiesAnnex div,.facultiesAnnex2 div,.facultiesAnnex3 div{
+.facultiesAnnex div,.facultiesAnnex2 div,.facultiesAnnex3 div, .facultiesAnnex4 div {
     color: red;
     visibility: hidden;
     left:200px;
@@ -87,6 +97,11 @@
 .facultiesAnnex3:hover div{
     visibility: visible;
 }
+
+.facultiesAnnex4:hover div{
+    visibility: visible;
+}
+
 
 .logo{
 
