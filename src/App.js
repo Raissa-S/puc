@@ -8,6 +8,7 @@ import Admission from './components/admission'
 import TABLE from './components/TABLE'
 import About from './components/about'
 import Contact from './components/contact';
+import Login from './components/courseRegistration';
 
 
 function App() {
@@ -21,12 +22,12 @@ function App() {
           
           <Route  path="/contact">contact</Route>
           <Route  path="/admission"><Admission title='Admission'></Admission></Route>
-          <Route  path="/courseRegistration"></Route>
+          <Route  path="/courseRegistration"> <Login></Login> </Route>
           <Route  path="/programmes"> <Courses title='Undergraduate Programmes'></Courses> </Route>
           <Route  path="/professionalSite"></Route>
           <Route  path="/postgraduate"><PostGrad title="Postgraduate Programmes"></PostGrad></Route>
-          <Route path= "/about"><About title='About'></About></Route>
-          <Route path="/contact"><Contact title='Contact'></Contact></Route>
+          <Route  path= "/about"><About title='About'></About></Route>
+          <Route  path="/contact"><Contact title='Contact'></Contact></Route>
         </Switch>
         <Footer></Footer>
       </Router>

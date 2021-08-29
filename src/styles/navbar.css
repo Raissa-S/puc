@@ -9,6 +9,7 @@
     height: 150px;
     display: grid;
     grid-template-rows: 1fr 2fr 3fr;
+    border-bottom: rgb(61, 177, 255) 1px solid;
 }
 
 .topNav{

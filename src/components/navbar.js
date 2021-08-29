@@ -8,7 +8,7 @@ export class navbar extends Component {
             <div className="navContainer">
                 <div className="topNav">
                     <div>
-                        <Link>Course Registration</Link>
+                        <Link to="/courseRegistration">Course Registration</Link>
 
                         <Link to ="/about">About</Link>
                         <Link to ="/contact">Contact us</Link>
