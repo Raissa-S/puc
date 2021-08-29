@@ -39,6 +39,11 @@ export class Login extends Component {
         let credUser1 = JSON.parse(sessionStorage.getItem('credUser1')) 
         let credUser2 = JSON.parse(sessionStorage.getItem('credUser2'))
         
+        if(this.state.username.length < 1 || this.state.password.length < 1){
+            this.setState({errorMessage: 'Please enter Username and Pin'})
+            return
+        }
+
         if(this.state.username !== credUser2[0] || this.state.password !== credUser2[0] ){
             
             
@@ -72,8 +77,8 @@ export class Login extends Component {
                         <input name='username' onInput={this.getFields} type="email" class="form-control" id="inputEmail4" placeholder="Username" />
                         </div>
                         <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input name='password' onInput={this.getFields} type="password" class="form-control" id="inputPassword4" placeholder="Password" />
+                        <label for="inputPassword4">Pin</label>
+                        <input name='password' onInput={this.getFields} type="password" class="form-control" id="inputPassword4" placeholder="Pin" />
                         </div>
                     </div>
                     <p style={{color: 'red'}}>{this.state.errorMessage}</p>
